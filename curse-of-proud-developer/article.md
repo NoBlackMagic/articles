@@ -1,5 +1,7 @@
-The Curse of the Proud Developer <br><small>how bugs lead to team building</small>
+The Curse of the Proud Developer
 ---
+
+## how bugs lead to team building
 
 The sky was turning dark when I saw the first _Internal Server Error_ (code 500), it was 5PM in the winter's afternoon and we were close to the release deadline. My heart missed at least two beats while my mouse ran to the reload button: "It may be just a network error, I thought". But it wasn't.
 
