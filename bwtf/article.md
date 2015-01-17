@@ -11,7 +11,7 @@ When the _BWTF_ strikes there is nowhere to go, no secure place to hide. The _BW
 
 Well, the first step is to accept that this risk exists. The next step is to conceive a strategy to mitigate that risk. After more than 10 years striving to avoid the _BWTF_ I am now quite sure there is no way to remove that risk from your life. It is part of your life.
 
-> The best strategy to mitigate the risk of a _Big What The Fuck_ is testing.
+> The best strategy to mitigate the risk of a _Big What The Fuck_ is **Testing**.
 
 I am not constraining the discussion to the source code. You should consider testing to be a strategy for a better life, whith or without code. A strategy that you conceive to fight the _BWTF_ which is always lurking behind every corner, anytime.
 
@@ -50,7 +50,7 @@ As you can see by yourself there is no known ways to completely remove the risk 
 
 Another important point is that you can build you tests through time, it is always the right moment to add a new test. This is more easy within a coding scenario. You may have missed a minor requirement but as soon you recognise it you can add a specific test for secure that requirement.
 
-My test suite for real life scenarios is _practical common sense_ but when it comes to a code scenario I can give some more specific advices which are specific to _Javascript_:
+My test suite for real life scenarios is _practical common sense_ but when it comes to a code scenario I can give some more specific advices which are specific to _Javascript_.
 
 [KarmaJS](http://karma-runner.github.io/0.12/index.html) is a [NodeJS](nodejs.org) command line tool which runs your unit tests. Among it's features I should mention that you can run tests on multiple target browsers. You can test mobile devices connected to the same network. I use KarmaJS in combination with [GruntJS](http://gruntjs.com/) or [GulpJS](http://gulpjs.com/) to integrate tests into my building processes.
 
@@ -72,7 +72,11 @@ My test suite for real life scenarios is _practical common sense_ but when it co
 
 [DalekJS](http://dalekjs.com/) is a standalone alternative to _WebDriver_. Even if it is on an early stage it seems to be very promising.
 
+### So remember your Takeaway:
 
+1. the _Big What The Fuck_ is always lurking and there is no way to avoid it
+2. **testing is the best strategy** you have to mitigate the risk of a _BWTF_
+3. you can apply testing to your professional and private life
 
 
 
