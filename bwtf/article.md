@@ -3,9 +3,9 @@ Beware the Big WTF
 
 Since the day I became a developer, I've always feared the _Big What The Fuck_. 
 
-The _BWTF_ is not only related to the code you write, it is the lack of knowledge that threaten to crush your entire project. It can be as simple as a server misconfiguration that cause a gaping security flaw.
+The _BWTF_ is not only related to the code you write, it is the lack of knowledge that threatens to crush your entire project. It can be as simple as a server misconfiguration that causes a gaping security flaw.
 
-When the _BWTF_ strikes there is nowhere to go, there is no place to hide. The _BWTF_ is like the worst earthquake in the world: no building endures. A big part of your application, job and/or reputation goes to waste. And nobody wants this to happen.
+When the _BWTF_ strike, there is nowhere to go; there is no place to hide. The _BWTF_ is like the worst earthquake in the world: no building endures. A big part of your application, job and/or reputation goes to waste. And nobody wants this to happen.
 
 > How can you protect yourself from the _Big What The Fuck_?
 
@@ -13,7 +13,7 @@ Well, the first step is to accept that this risk exists. The next step is to con
 
 > The best strategy to mitigate the risk of a _Big What The Fuck_ is **Testing**.
 
-I am not constraining the discussion to the source code. You should consider testing to be a strategy for a better life, whith or without code. A strategy that you conceive to fight the _BWTF_ which is always lurking behind every corner, anytime.
+I am not constraining the discussion to the source code. You should consider testing to be a strategy for a better life, with or without code. A strategy that you can use to fight the _BWTF_. Which is always lurking behind every corner, always present.
 
 Say you plan to go holiday to the Red Sea, let's try to work out a test to stress that decision:
 
@@ -28,31 +28,31 @@ You do the same activity when coding a procedure that takes 2 integers and retur
 - does `sum('a', 2)` throw an exception?
 - is `sum('a', 2)` exception a `wrongInputType` exception?
 
-> The more tests that you are able to produce against a decision / procedure, the more 
-> chances you have to find early issues, with less risk of a _Big What The Fuck_ 
+> The more tests that you are able to produce against a decision / procedure, the bigger 
+> chance you have to find early issues, with less of a risk of a _Big What The Fuck_ 
 > in the future.
 
 When it comes to a code scenario the most likely _BWTF_ is to forget to consider a minor requirement from the customer. Then you deliver a product that will fail in the future when that minor requirement will manifest. Your phone will ring like crazy, your inbox will choke and you'll move abroad to escape your shame.
 
-> The _BWTF_ is due to the unpredictability of when the problem will araise. 
+> The _BWTF_ is due to the unpredictability of when the problem will arise. 
 
-The later in time it shows up, the less you'll recall what the minor requirement was and where the problem lies within the code base. And how the hell it works! By the time an issue like that manifests itself, you may have moved to another technology.
+The later it shows up, the less you'll recall what the minor requirement was and where the problem lies within the code base. And how the hell it works! By the time an issue like that manifests itself, you may have moved to another technology.
 
-In real life a _Big What The Fuck_ can be even worse. Almost four years ago I bought a brand new house and I took a loan for it. Less than two years later I moved to Sweden to join a challenging job opportunity. To this date I still haven't sold that house, but I'm still paying the mourgauge. Of course this is not a life thretening issue, but I can assure you it is annoying to throw away money like that. What if I had prepared myself with a more accurate test when I decided to buy the house? 
+In real life a _Big What The Fuck_ can be even worse. Almost four years ago I bought a brand new house and I took a loan for it. Less than two years later I moved to Sweden to join a challenging job opportunity. To this date I still haven't sold that house, but I'm still paying the mortgage. Of course this is not a life threatening issue, but I can assure you it is annoying to throw away money like that. What if I had prepared myself with a more accurate test when I decided to buy the house? 
 
 - are my career opportunities well developed close to the house?
 - does my career ask me to be flexible about my location?
-- will it be possible to sell the house without loosing big money on it?
+- will it be possible to sell the house without losing big money on it?
 
 Well, I must confess that I didn't create any of those tests at the time of the buying.
 
 As you can see by yourself there is no known ways to completely remove the risk of a _Big What The Fuck_. The right way to behave is to mitigate that risk by running every decision / procedure against a _good amount of tests_. What the word _good_ means in this context is up to you, but in general the more the tests the less the risk. 
 
-Another important point is that you can build you tests through time, it is always the right moment to add a new test. This is more easy within a coding scenario. You may have missed a minor requirement but as soon you recognise it you can add a specific test to secure that requirement.
+Another important point is that you can build you tests through time; it is always the right moment to add a new test. This is easier within a coding scenario. You may have missed a minor requirement but as soon you recognise it you can add a specific test to secure that requirement.
 
 My test suite for real life scenarios is _practical common sense_ but when it comes to a code scenario I can give some more specific advices which are specific to _Javascript_.
 
-[KarmaJS](http://karma-runner.github.io/0.12/index.html) is a [NodeJS](nodejs.org) command line tool which runs your unit tests. Among it's features I should mention that you can run tests on multiple target browsers. You can test mobile devices connected to the same network. I use KarmaJS in combination with [GruntJS](http://gruntjs.com/) or [GulpJS](http://gulpjs.com/) to integrate tests into my building processes.
+[KarmaJS](http://karma-runner.github.io/0.12/index.html) is a [NodeJS](nodejs.org) command line tool which runs your unit tests. Among its features I should mention that you can run tests on multiple target browsers. You can test mobile devices connected to the same network. I use KarmaJS in combination with [GruntJS](http://gruntjs.com/) or [GulpJS](http://gulpjs.com/) to integrate tests into my building processes.
 
 [MochaJS](http://mochajs.org/) is a Javascript test framework which helps in creating your specs files. It provides utility methods for a nice code organization of your unit tests.
 
