@@ -29,7 +29,7 @@ You do the same activity when coding a procedure that takes 2 integers and retur
 - is `sum('a', 2)` exception a `wrongInputType` exception?
 
 > The more tests that you are able to produce against a decision / procedure, the more 
-> chanses you have to find early issues, with less the risk of a _Big What The Fuck_ 
+> chances you have to find early issues, with less risk of a _Big What The Fuck_ 
 > in the future.
 
 When it comes to a code scenario the most likely _BWTF_ is to forget to consider a minor requirement from the customer. Then you deliver a product that will fail in the future when that minor requirement will manifest. Your phone will ring like crazy, your inbox will choke and you'll move abroad to escape your shame.
