@@ -9,7 +9,7 @@ When the _BWTF_ strike, there is nowhere to go; there is no place to hide. The _
 
 > How can you protect yourself from the _Big What The Fuck_?
 
-Well, the first step is to accept that this risk exists. The next step is to conceive a strategy to mitigate that risk. After more than 10 years striving to avoid the _BWTF_ I am now quite sure there is no way to remove that risk from your life. It is a part of your life.
+Well, the first step is to accept that this risk exists. The next step is to conceive a strategy to mitigate that risk. After more than 10 years striving to avoid the _BWTF_ I am now quite sure there is no way to remove that risk from your life. It is part of your life.
 
 > The best strategy to mitigate the risk of a _Big What The Fuck_ is **Testing**.
 
