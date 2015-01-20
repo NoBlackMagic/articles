@@ -1,4 +1,4 @@
-Beware the Big WTF
+You'd better Test to save some Rest
 ---
 
 Since the day I became a developer, I've always feared the _Big What The Fuck_. 
