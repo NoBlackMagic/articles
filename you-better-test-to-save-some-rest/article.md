@@ -20,7 +20,7 @@ Say you plan to go holiday to the Red Sea, let's try to work out a test to stres
 - will I relax enough?
 - will I cope with 6 days without my Mac?
 - will it be safe?
-- will I gain 4 punds by eating all the time?
+- will I gain 4 pounds by eating all the time?
 
 You do the same activity when coding a procedure that takes 2 integers and return the sum:
 
@@ -50,7 +50,7 @@ As you can see by yourself there is no known ways to completely remove the risk 
 
 Another important point is that you can build you tests through time; it is always the right moment to add a new test. This is easier within a coding scenario. You may have missed a minor requirement but as soon you recognise it you can add a specific test to secure that requirement.
 
-My test suite for real life scenarios is _practical common sense_ but when it comes to a code scenario I can give some more specific advices which are specific to _Javascript_.
+My test suite for real life scenarios is _practical common sense_ but when it comes to a code scenario I can give some more specific pieces of advice which are specific to _Javascript_.
 
 [KarmaJS](http://karma-runner.github.io/0.12/index.html) is a [NodeJS](nodejs.org) command line tool which runs your unit tests. Among its features I should mention that you can run tests on multiple target browsers. You can test mobile devices connected to the same network. I use KarmaJS in combination with [GruntJS](http://gruntjs.com/) or [GulpJS](http://gulpjs.com/) to integrate tests into my building processes.
 
