@@ -1,4 +1,4 @@
-Sleep tight and live a happy Life!
+Sleep tight and live an happy Life!
 ---
 
 ### Free backup strategies that make you sleep better
